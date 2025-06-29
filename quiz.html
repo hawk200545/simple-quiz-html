@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<style>
+    body {
+        background-color: rgb(126, 162, 162);
+    }
+
+    .box {
+        width: 500px;
+        margin: 0 auto;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+
+    .content {
+        height: 600px;
+    }
+
+    .vertical-center {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    #myForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 20px 20px 20px;
+        gap : 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        height: 40px;
+        background-color: palevioletred;
+        border: 0;
+        border-radius: 0px 0px 10px 10px;
+    }
+    button:hover {
+            background-color: rgb(210, 33, 92);
+    }
+
+    .question {
+        font-family: inherit;
+        padding: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="vertical-center">
+                <div class="box">
+                    <div id="question" class="question">
+                        question
+                    </div>
+                    <form id="myForm">
+                        <label>
+                            <input type="radio" name="opt" value="a"> <span id="a_text"></span>
+                        </label>
+                        <label>
+                            <input type="radio" name="opt" value="b"> <span id="b_text">Option B</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="opt" value="c"> <span id="c_text">Option C</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="opt" value="d"> <span id="d_text">Option D</span>
+                        </label>
+                    </form>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
