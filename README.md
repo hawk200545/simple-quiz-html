@@ -19,7 +19,7 @@ Clone or download the project to your local machine:
 ```bash
 git clone https://github.com/your-username/simple-quiz-html.git
 cd simple-quiz-html
-
+```
 ---
 
 ## ✨ Features
