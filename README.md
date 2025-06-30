@@ -17,7 +17,7 @@ The best part? 🎉 You can use **unlimited quizzes** — just add your question
 Clone or download the project to your local machine:
 
 ```bash
-git clone https://github.com/your-username/simple-quiz-html.git
+git clone https://github.com/hawk200545/simple-quiz-html.git
 cd simple-quiz-html
 ```
 ---
